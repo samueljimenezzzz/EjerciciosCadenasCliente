@@ -4,6 +4,9 @@ function devuelveMasLarga(cadenaA, cadenaB){
     if(cadenaA.length >= cadenaB.length){
         masLarga = cadenaA;
     }
+    else if(cadenaA.length == cadenaB.length){
+        masLarga = cadenaA + cadenaB;
+    }
     else{
         masLarga = cadenaB;
     }
